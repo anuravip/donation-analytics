@@ -3,21 +3,24 @@ Software requirements to test the code
 The coding challenge is implemented using Java language.
 To run the code, you need java 8 and Maven 3.5 installed on the system.
 
-Once we have java and Maven, we can just run run.sh. I have also tested the script insight_testsuite/run_tests.sh
+Ensure JAVA_HOME environment variable is set and points to your JDK installation
+Download  maven from https://maven.apache.org/download.cgi
+Extract distribution archive in any directory
+Add the bin directory of the created directory apache-maven-3.5.2 to the PATH environment variable
+confirm with mvn -v in a new shell. 
 
-I have modified run_tests.h and added the below line in the function setup_testing_input_output
+Once we have java and Maven, we can just run the script run.sh. 
+Modified run_tests.h and added the below line in the function setup_testing_input_output
 
  cp -r ${PROJECT_PATH}/pom.xml ${TEST_OUTPUT_PATH}
  
-
-
 Unit Tests
 -----------
 JUnit tests are in the test folder- TestUtilClass.java
 
 Tests
 ------
-I have created 2 test folders under insighttestsuite. I could not upload big test files from FEC as Github
+2 test folders are created under insighttestsuite folder. I could not upload big test files from FEC as Github
 is not allowing to upload big input files.
 
 
