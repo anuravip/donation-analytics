@@ -34,5 +34,9 @@ if the donor is a repeat donor,donor and recipient info are saved in the repeat_
 if repeat donor, the output values along with percentile value are calculated for that particular year and zipcode 
 and written to the output file repeat_donors.txt
 
+As per FEC, TRANSCTION_AMT field is NUMBER(14, 2).
+I am assuming that we can round the transaction amount and the percentile value in the output file. The sample output file provided in the challenge does not show sum of transaction amount or percentile value as a float data type.
+
+
 
 
