@@ -3,10 +3,10 @@ Software requirements to test the code
 The coding challenge is implemented using Java language.
 To run the code, you need java 8 and Maven 3.5 installed on the system.
 
-Ensure JAVA_HOME environment variable is set and points to your JDK installation
-Download  maven from https://maven.apache.org/download.cgi
-Extract distribution archive in any directory
-Add the bin directory of the created directory apache-maven-3.5.2 to the PATH environment variable
+Ensure JAVA_HOME environment variable is set and points to your JDK installation.
+Download  maven from https://maven.apache.org/download.cgi.
+Extract distribution archive in any directory.
+Add the bin directory of the created directory apache-maven-3.5.2 to the PATH environment variable.
 confirm with mvn -v in a new shell. 
 
 Once we have java and Maven, we can just run the script run.sh. 
